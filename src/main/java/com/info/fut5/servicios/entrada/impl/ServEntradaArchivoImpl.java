@@ -1,12 +1,10 @@
 package com.info.fut5.servicios.entrada.impl;
 
-//import com.info.fut5.dominio.Equipo;
+
 import com.info.fut5.dominio.Jugador;
 import com.info.fut5.dominio.PosicionJugador;
 import com.info.fut5.servicios.entrada.ServEntradaArchivo;
-
 import org.apache.commons.io.FileUtils;
-//import com.info.fut5.servicios.equipo.impl.ServicioEquipoImpl;
 import com.info.fut5.servicios.validacion.ServValidacion;
 import com.info.fut5.servicios.validacion.impl.ServValidacionImpl;
 

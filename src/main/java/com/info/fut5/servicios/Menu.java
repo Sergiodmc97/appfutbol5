@@ -171,7 +171,7 @@ public class Menu {
     }
 
 
-    public void gestionarMenu(){
+    public void gestMenu(){
         int opcionSeleccionada = -1;
         this.titulo();
 
@@ -181,7 +181,7 @@ public class Menu {
 
         if (opcionSeleccionada != 0) {
             this.ejecutarOpcion(opcionSeleccionada);
-            this.gestionarMenu();
+            this.gestMenu();
         } else {
             System.out.println("Fin.");
         }

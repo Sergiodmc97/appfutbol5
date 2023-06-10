@@ -1,10 +1,8 @@
 package com.info.fut5.servicios.equipo;
 
-//import com.info.fut5.dominio.Entrenador;
 import com.info.fut5.dominio.Equipo;
 import com.info.fut5.dominio.Jugador;
 
-//import java.time.LocalDate;
 import java.util.List;
 
 public interface ServEquipo {

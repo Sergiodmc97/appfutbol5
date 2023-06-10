@@ -1,6 +1,5 @@
 package com.info.fut5.servicios.salida.file;
 
-//import com.info.fut5.dominio.Equipo;
 import com.info.fut5.dominio.Jugador;
 
 import java.io.IOException;

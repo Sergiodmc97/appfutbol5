@@ -10,7 +10,7 @@ public class App
     {
         ServConsola.abrirScanner();
         new ServInicioImpl().iniciar();
-        new Menu().gestionarMenu();
+        new Menu().gestMenu();
         ServConsola.cerrarScanner();
     }
 }

@@ -3,9 +3,7 @@ package com.info.fut5.servicios.equipo.impl;
 import com.info.fut5.dominio.Equipo;
 import com.info.fut5.dominio.Jugador;
 import com.info.fut5.servicios.entrada.impl.ServConsola;
-//import com.info.fut5.servicios.equipo.ServicioEquipo;
 import com.info.fut5.servicios.equipo.ServListadoEquipo;
-//import com.info.fut5.servicios.inicio.ServicioInicio;
 import com.info.fut5.servicios.inicio.impl.ServInicioImpl;
 import com.info.fut5.servicios.salida.file.ServSalidaArchivo;
 import com.info.fut5.servicios.salida.file.impl.ServSalidaArchivoImpl;
@@ -78,7 +76,7 @@ public class ServListadoEquipoImpl implements ServListadoEquipo {
                 String rutaArchivoSalida = "src/main/java/com/info/fut5/resouces/jugadoresequipo.txt";
                 ServSalidaArchivo salidaArchivo = new ServSalidaArchivoImpl();
                 salidaArchivo.exportarJugadoresEquipo(equipo.getListaDeJugadores(), rutaArchivoSalida);
-                System.out.println("Lista de jugadores exportados en archivo 'jugadores_equipo_salida.txt'");
+                System.out.println("Lista de jugadores exportados en archivo txt");
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("Error al exportar jugadores.");
@@ -101,14 +99,12 @@ public class ServListadoEquipoImpl implements ServListadoEquipo {
             }
 
             listadoEquipos = listadoEquipos +
-                            equipo.getNombre() + "\n" +
-                            listado +
-                            "\n\n";
+                            equipo.getNombre() + "\n" + listado + "\n\n";
         }
         try {
             String rutaArchivoSalida = "src/main/java/com/info/fut5/resouces/equipos.txt";
             new ServSalidaArchivoImpl().exportarAArchivo(listadoEquipos, rutaArchivoSalida);
-            System.out.println("Equipos ordenados por nombre de jugador ha sido exportada en archivo 'equipos.txt' con éxito.");
+            System.out.println("Equipos ordenados por nombre de jugador ha sido exportada en archivo .txt con éxito.");
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("Error al exportar equipo.");

@@ -1,5 +1,5 @@
-Juan;Sanchez;1.8;987;Arquero;false;10;zxc<z
-Pedro;Breitenstein;1.9;6;Defensor;true;11;zxc<z
-Ramiro;Hernandez;1.82;3;Defensor;false;18;zxc<z
-Enzo;Parlmeter;1.73;5;Mediocampista;false;5;zxc<z
-Elias;Dos Santos;1.85;12;Arquero;false;9;zxc<z
+Sergio;Palavecino;1.70;937;Arquero;false;9;zxc<z
+Juan;Britos;1.80;6;Defensor;true;11;zxc<z
+Nahuel;Hernandez;1.84;3;Delantero;false;17;zxc<z
+Matias;Parlmeter;1.76;5;Mediocampista;true;8;zxc<z
+Enrique;Calderon;1.88;12;Arquero;false;12;zxc<z

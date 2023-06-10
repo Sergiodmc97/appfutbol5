@@ -1,0 +1,5 @@
+Sergio;Palavecino;1.70;937;Arquero;false;9;chacarita
+Juan;Britos;1.80;6;Defensor;true;11;chacarita
+Nahuel;Hernandez;1.84;3;Delantero;false;18;chacarita
+Matias;Parlmeter;1.76;5;Mediocampista;true;8;chacarita
+Enrique;Calderon;1.88;12;Arquero;false;12;chacarita

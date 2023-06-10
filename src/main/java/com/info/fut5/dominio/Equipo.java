@@ -52,10 +52,6 @@ public class Equipo {
     @Override
     public String toString() {
         DateTimeFormatter fecha = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        return "{Nombre: " +
-                this.nombre +
-                " * Fecha de creación: " +
-                fecha.format(this.fechaDeCreacion) +
-                "}";
+        return "{Nombre: " +this.nombre + " * Fecha de creación: " + fecha.format(this.fechaDeCreacion) + "}";
     }
 }

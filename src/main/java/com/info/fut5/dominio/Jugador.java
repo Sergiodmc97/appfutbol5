@@ -5,13 +5,13 @@ public class Jugador extends Persona {
     private UUID id;
     private double altura;
     private int goles;
-    private Posicion posicion;
+    private PosicionJugador posicion;
     private boolean esCapitan = false;
     private int nroDeCamiseta;
     private Equipo equipo;
     
     
-        public Jugador(String nombre, String apellido, double altura, int goles, Posicion posicion,
+        public Jugador(String nombre, String apellido, double altura, int goles, PosicionJugador posicion,
                        boolean esCapitan, int nroDeCamiseta) {
             super(nombre, apellido);
             this.id = java.util.UUID.randomUUID();
@@ -46,11 +46,11 @@ public class Jugador extends Persona {
             this.goles = goles;
         }
     
-        public Posicion getPosicion() {
+        public PosicionJugador getPosicion() {
             return posicion;
         }
     
-        public void setPosicion(Posicion posicion) {
+        public void setPosicion(PosicionJugador posicion) {
             this.posicion = posicion;
         }
     
